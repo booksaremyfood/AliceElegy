@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Christian Resemantisation of Elegiac Topoi in Venantius Fortunatus</title>
+<style>
+:root{--bg:#F9F9FB;--ink:#1E293B;--muted:#64748B;--gold:#9A6B2F;--gold-l:#F1E7D6;--line:#E2E0D8;--card:#fff;--navy:#1E293B;--sage:#5B7B6F}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "EB Garamond","Cormorant Garamond",Garamond,Georgia,serif}
+a{color:var(--gold)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.skip{position:absolute;left:-999px;top:0;background:var(--navy);color:#fff;padding:8px 14px;z-index:99}.skip:focus{left:8px}
+header.top{position:sticky;top:0;z-index:20;background:rgba(249,249,251,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.bar{max-width:1200px;margin:auto;padding:10px 20px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.brand{font-weight:600;font-size:1.15rem;letter-spacing:.02em;color:var(--navy);text-decoration:none}
+.brand span{color:var(--gold)}
+nav.main{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
+nav.main a{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:.82rem;text-transform:uppercase;letter-spacing:.08em;color:var(--ink);text-decoration:none;padding:8px 12px;border-bottom:2px solid transparent}
+nav.main a:hover,nav.main a[aria-current=page]{border-color:var(--gold);color:var(--gold)}
+main{max-width:1200px;margin:auto;padding:28px 20px 80px}
+h1,h2,h3{font-weight:500;line-height:1.2;color:var(--navy)}
+h1{font-size:clamp(1.9rem,4vw,3rem);margin:.2em 0}
+h2{font-size:1.8rem;margin:1.4em 0 .5em}
+h3{font-size:1.25rem}
+.eyebrow{font-family:system-ui,sans-serif;font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.hero{text-align:center;padding:36px 10px 28px;border-bottom:1px solid var(--line)}
+.hero p{max-width:680px;margin:.5em auto 1.2em;color:var(--muted)}
+.search{display:flex;max-width:640px;margin:auto;border:1px solid var(--navy);background:#fff}
+.search input{flex:1;border:0;padding:14px 16px;font:inherit;background:transparent;min-width:0}
+.search button,.btn{font-family:system-ui,sans-serif;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;background:var(--navy);color:#fff;border:0;padding:0 22px;cursor:pointer;min-height:42px}
+.btn{padding:0 16px;border:1px solid var(--navy)}.btn.alt{background:#fff;color:var(--navy)}
+.btn:hover,.search button:hover{background:var(--gold);border-color:var(--gold);color:#fff}
+.counters{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:26px 0}
+.counter{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--gold);padding:16px;text-align:center}
+.counter b{display:block;font-size:2.6rem;font-weight:500;color:var(--navy);line-height:1}
+.counter span{font-family:system-ui,sans-serif;font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.graphwrap{background:#fff;border:1px solid var(--line)}
+.graphwrap svg{width:100%;height:auto;display:block;touch-action:none}
+.legend{display:flex;gap:18px;flex-wrap:wrap;padding:10px 14px;font:.78rem system-ui,sans-serif;color:var(--muted);border-top:1px solid var(--line)}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.gnode{cursor:pointer}.gnode text{font:12px system-ui,sans-serif;fill:var(--ink);paint-order:stroke;stroke:#fff;stroke-width:3px;pointer-events:none}
+.gnode:focus-visible circle,.gnode:focus-visible rect{stroke:var(--gold);stroke-width:4}
+.glink{stroke:#B9B4A6;stroke-opacity:.55}
+.dim{opacity:.12}.hi{stroke:var(--gold);stroke-opacity:1;stroke-width:2}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);padding:18px;text-decoration:none;color:inherit;display:block;transition:.15s}
+a.card:hover{border-color:var(--gold);box-shadow:0 4px 18px rgba(30,41,59,.08);transform:translateY(-2px)}
+.card .id{font:.72rem system-ui,sans-serif;letter-spacing:.12em;color:var(--gold)}
+.card h3{margin:.2em 0 .4em;font-size:1.15rem}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+.badge{display:inline-block;font:.74rem system-ui,sans-serif;padding:3px 10px;border:1px solid var(--gold);color:var(--gold);background:var(--gold-l);text-decoration:none;margin:2px 4px 2px 0;border-radius:999px}
+a.badge:hover{background:var(--gold);color:#fff}
+.badge.navy{border-color:var(--navy);color:var(--navy);background:#fff}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.panel{background:var(--card);border:1px solid var(--line);padding:20px}
+.panel h3{margin-top:0}
+.lbl{font:.7rem system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:4px}
+.latin{font-style:italic;font-size:1.15rem}
+.crumb{font:.8rem system-ui,sans-serif;color:var(--muted);margin-bottom:6px}
+.crumb a{color:var(--muted)}
+.occ{border-left:3px solid var(--gold);background:#fff;padding:12px 16px;margin:12px 0}
+.reader{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
+.reader .side{position:sticky;top:78px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 18px}
+.tab{font:.78rem system-ui,sans-serif;padding:8px 12px;border:1px solid var(--line);background:#fff;cursor:pointer;color:var(--ink)}
+.tab[aria-selected=true]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.verse{display:block;width:100%;text-align:left;font:inherit;background:#fff;border:1px solid var(--line);padding:14px 16px;margin:10px 0;cursor:pointer;color:inherit}
+.verse:hover{border-color:var(--gold)}
+.verse[aria-pressed=true]{background:var(--gold-l);border-color:var(--gold);box-shadow:inset 4px 0 0 var(--gold)}
+.verse .ref{font:.72rem system-ui,sans-serif;letter-spacing:.1em;color:var(--gold);display:block;margin-bottom:4px}
+.verse .ln{display:block;font-style:italic;font-size:1.2rem}
+.tip{border-bottom:2px dotted var(--gold);cursor:help;background:linear-gradient(transparent 62%,rgba(154,107,47,.22) 0)}
+#tooltip{position:fixed;z-index:50;max-width:320px;background:var(--navy);color:#fff;padding:10px 14px;font:.85rem/1.45 system-ui,sans-serif;box-shadow:0 8px 24px rgba(0,0,0,.25);pointer-events:none;display:none}
+#tooltip b{color:#E8C98F;display:block;font-family:"EB Garamond",serif;font-size:1.05rem;font-style:italic}
+.parallel{border:1px dashed var(--gold);padding:12px 14px;margin:10px 0;background:#FFFDF8}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:.95rem}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font:.7rem system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);background:#FBF8F1}
+.tablewrap{overflow-x:auto;border:1px solid var(--line)}
+.filters{display:flex;gap:12px;flex-wrap:wrap;align-items:end;margin:14px 0;padding:14px;background:#fff;border:1px solid var(--line)}
+.filters label{font:.7rem system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+select,input[type=search]{font-size:1rem;font-family:system-ui,sans-serif;padding:9px 10px;border:1px solid #cbd5e1;background:#fff;min-width:180px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+.chip{font:.8rem system-ui,sans-serif;padding:7px 14px;border:1px solid var(--navy);background:#fff;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--navy);color:#fff}
+.note{font:.8rem system-ui,sans-serif;color:var(--muted);margin-top:14px}
+footer{border-top:1px solid var(--line);text-align:center;padding:26px;font:.8rem system-ui,sans-serif;color:var(--muted)}
+.guide{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);padding:16px 20px;margin:18px 0}
+.guide h2{margin:0 0 8px;font-size:1.25rem}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;list-style:none;padding:0;margin:0;counter-reset:s}
+.steps li{counter-increment:s;font:.9rem/1.45 system-ui,sans-serif;padding-left:34px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:24px;height:24px;border-radius:50%;background:var(--navy);color:#fff;text-align:center;line-height:24px;font-size:.8rem}
+.steps b{display:block;font-family:"EB Garamond",serif;font-size:1.05rem;color:var(--navy)}
+.lead{font:.95rem/1.5 system-ui,sans-serif;color:var(--muted);max-width:760px;margin:.2em 0 1em}
+.hint{font:.8rem system-ui,sans-serif;color:var(--gold);display:block;margin-top:6px}
+.path{display:flex;flex-wrap:wrap;gap:4px;align-items:center;font:.78rem system-ui,sans-serif;margin-bottom:12px}
+.path a,.path span{padding:4px 10px;border:1px solid var(--line);background:#FBF8F1;color:var(--navy);text-decoration:none}
+.path a:hover{border-color:var(--gold)}
+.path i{font-style:normal;color:var(--gold)}
+.sr{position:absolute;left:-9999px}
+@media(max-width:820px){.two,.reader{grid-template-columns:1fr}.reader .side{position:static}nav.main{margin-left:0}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header class="top"><div class="bar">
+<a class="brand" href="#/"> Venantius Fortunatus <span>·</span> Topoi</a>
+<nav class="main" aria-label="Main navigation">
+<a href="#/" data-r="home">Home</a><a href="#/topoi" data-r="topoi">Topoi</a><a href="#/carmi" data-r="carmi">Poems &amp; Texts</a><a href="#/fonti" data-r="fonti">Sources &amp; Models</a><a href="#/cerca" data-r="cerca">Search</a>
+<!-- <a href="#/export" data-r="export">Export</a> -->
+</nav></div></header>
+<main id="app" tabindex="-1"></main>
+<footer>Alice Ostuni, <i>Elegiac Themes and Topoi in Medieval Poetic Production</i>, 2026.</footer>
+<div id="tooltip" role="tooltip"></div>
+
+<script>
+const DB={
+topoi:[
+{id:"TOP_01",short:"Absentia",nome:"Distance from the beloved / Absentia",cl:"An obstacle to the fulfilment of love, a cause of lament and of a sense of incompleteness (two severed halves).",vf:"Becomes the guiding motif of epistolary friendship. Geographical separation concerns bodies but not souls (absentem uidet)."},
+{id:"TOP_02",short:"Hostile / allied nature",nome:"Hostile Nature vs. Allied Nature",cl:"Seas, rivers and storms act as enemies and obstacles placed between lovers (e.g. Hero and Leander).",vf:"Winds and waves become messengers and carriers of memory. The stormy sea symbolises the blanda tempestas of spiritual affection."},
+{id:"TOP_03",short:"Absens absentem uidet",nome:"Spiritual vision of the absent one / Absens absentem uidet",cl:"The illusion or madness of passion: the lover hears and sees the beloved even in her absence or in dreams.",vf:"The constant presence of the friend in the mind (honestus amor) or communion in dreams (unianimes quies)."},
+{id:"TOP_04",short:"Eyes and gaze",nome:"Eyes and Gaze (Oculi / Lumina / Vultus)",cl:"The beloved’s sight and eyes are the primary channel through which passion strikes (Cynthia prima…).",vf:"The friend’s departure deprives the author of sight (lumina rapuisti); his return restores vital light and spiritual joy."},
+{id:"TOP_05",short:"Pars / Membra",nome:"Separation as the loss of a part of oneself (Pars / Membra)",cl:"Loving union is a fusion of two halves; separation deprives the lover of a part of his own body or soul.",vf:"The distant friend leaves the author like a pars oblita or membra relicta; recalls the Horatian and Catullan topos of the friend as animae dimidium."},
+{id:"TOP_06",short:"Desidia vs. Labor",nome:"Desidia vs. the Labor of Love",cl:"Elegiac love is a form of activity and discipline, opposed to profane inertia (desidia).",vf:"A friend’s silence or lack of reply is read as desidia, a deliberate choice that breaks affective communion."},
+{id:"TOP_07",short:"Militia Amoris",nome:"Militia Amoris / The soldier of Love",cl:"The poet-lover submits to the service of Love (militat omnis amans), preferring it to real arms.",vf:"Christian resemantisation: the miles willingly accepts labor and wounds (per uulnera palmam) in order to win the triumph of eternal salvation."},
+{id:"TOP_08",short:"Iugum / Servitium",nome:"The Yoke of Love (Iugum) and Servitium Amoris",cl:"Painful, asymmetrical submission to the yoke or slavery of Love or of the domina.",vf:"Bending the neck (subdere colla) to the dulce iugum Christi: a willing, joyful and reciprocal bond of faith."},
+{id:"TOP_09",short:"Pectore fixus",nome:"The pierced lover / Pectore fixus",cl:"Cupid’s arrow or a glance pierces the lover’s chest painfully.",vf:"The image of wounding is converted into a seal of affection: the friend is welcomed and indelibly engraved in the heart (pectore fixe meo)."},
+{id:"TOP_10",short:"Following the beloved",nome:"Readiness to face danger / Willingness to follow the beloved",cl:"The lover proves his loyalty by declaring he will follow the beloved into dangerous and remote places.",vf:"Recast as spiritual pursuit (sequor animo) or as readiness to brave Lenten storms in order to reach the domina / the saint."},
+{id:"TOP_11",short:"Exclusus amator",nome:"Exclusus Amator and Paraklausithyron",cl:"The rejected or separated lover laments before the beloved’s closed door or wall.",vf:"Reworked in Radegund’s Lenten seclusion: exclusion now affects the community of the faithful, and the time of seclusion stretches subjectively."},
+{id:"TOP_12",short:"Subjective time",nome:"Dilation / Subjective alteration of Time",cl:"The beloved’s absence makes days endless; her presence speeds up time and brings spring.",vf:"The saint’s seclusion turns short days into a long month; her return at Easter hastens the harvest (iam meus autumnus uenit)."},
+{id:"TOP_13",short:"Heroides / Tristia",nome:"The abandoned heroine and the absence of funeral rites (Heroides / Tristia)",cl:"The heroine laments her beloved’s distance and dangers (Heroides); the exile suffers because no one closes his eyes or weeps over his corpse (Tristia).",vf:"Radegund speaks in the first person (in persona Radegundis) as an elegiac heroine in exile, mourning her ruined homeland and her inability to pay last honours to her brother."}],
+carmi:[
+{id:"VF_01",ref:"Carm. 3.16",titolo:"Ad Hilarium",dest:"Hilarius",qual:"Noble, learned man who became a priest after his wife’s death",tipo:"Poetic note / Letter to a friend"},
+{id:"VF_02",ref:"Carm. 6.9",titolo:"Ad Dynamium de Massilia",dest:"Dynamius of Marseille",qual:"Official, governor of Provence, writer",tipo:"Elegy to a friend / Letter of regret at absence"},
+{id:"VF_03",ref:"Carm. 3.26",titolo:"Ad Rucconem Diaconum",dest:"Ruccon (Ragnemodus)",qual:"Presbyter / future bishop of Paris",tipo:"Poetic letter / Greeting between separated friends"},
+{id:"VF_04",ref:"Carm. 3.30",titolo:"Ad Sindulfum Diaconum",dest:"Sindulf",qual:"Deacon",tipo:"Hortatory letter in echoic distichs"},
+{id:"VF_05",ref:"Carm. 8.9",titolo:"Ad eandem cum se reclauderet",dest:"St Radegund",qual:"Founder of Sainte-Croix in Poitiers",tipo:"Note for the Lenten seclusion"},
+{id:"VF_06",ref:"Carm. 8.10",titolo:"Ad eandem cum rediit",dest:"St Radegund",qual:"Founder of Sainte-Croix in Poitiers",tipo:"Poem celebrating her Easter return"},
+{id:"VF_07",ref:"App. 1",titolo:"De Excidio Thoringiae",dest:"Amalafrid",qual:"Radegund’s cousin, general in Byzantium",tipo:"Epic and epistolary elegy (in persona Radegundis)"}],
+occ:[
+{id:"OCC_01",c:"VF_01",t:["TOP_01","TOP_03"],ref:"Carm. 3.16, vv. 1-3",v:["Lux sincera animi… / quamuis absentem quem mea cura uidet, / cuius honestus amor…"],lex:["lux animi","dulcis","cura","honestus amor","absentem uidet"],f:"Replaces erotic love with pure friendship (honestus amor) grounded in Christian ethics.",m:["MOD_01"],k:["honestus amor"],hl:[["absentem quem mea cura uidet","Virgilian calque (Aen. 4.83): the absent one sees and hears the distant friend. Here seeing is affection, not passion."],["honestus amor","‘Honourable’ love: erotic vocabulary is converted into pure friendship on a Christian basis."]]},
+{id:"OCC_02",c:"VF_01",t:["TOP_01"],ref:"Carm. 3.16, v. 5",v:["uersibus exiguis mandamus uota salutis"],lex:["exiguis uersibus","uota salutis"],f:"Elegiac poet’s modesty (exiguus) used for the communicative function of the letter.",m:[],k:[],hl:[["uersibus exiguis","Topos of poetic modesty, here bent to the function of a letter."]]},
+{id:"OCC_03",c:"VF_02",t:["TOP_01","TOP_02"],ref:"Carm. 6.9, vv. 1-4",v:["Expecto te, noster amor… / Quae loca te teneant uenientia flabra requiro / si fugias oculos, non fugis hinc animos"],lex:["noster amor","flabra (messenger winds)","fugis oculos / non animos"],f:"Use of the sermo amatorius; the winds become interlocutors for finding the friend.",m:["MOD_01","MOD_03"],k:["absentia"],hl:[["noster amor","Sermo amatorius applied to a friend."],["flabra","The winds: from elegiac obstacle to messengers."],["non fugis hinc animos","Bodies are separated, souls are not."]]},
+{id:"OCC_04",c:"VF_02",t:["TOP_05"],ref:"Carm. 6.9, vv. 7-8",v:["Quo sine te tua pars hucusque oblita remansit / nec reuocas animo membra relicta tuo?"],lex:["pars oblita","membra relicta","unianimes"],f:"The absent friend has left the author like a forgotten or mutilated part of himself.",m:["MOD_04"],k:["animae dimidium"],hl:[["tua pars","Pars: the distant friend has carried off one half of the self."],["membra relicta","Membra relicta: the author feels mutilated."]]},
+{id:"OCC_05",c:"VF_02",t:["TOP_06"],ref:"Carm. 6.9, vv. 11-12",v:["Si uigilas, fateor, ueniam tibi culpa negabit; / nil unde excuses desidiosus habes"],lex:["desidiosus","culpa"],f:"The failure to reply to a letter is charged as desidia, the antithesis of amicable and elegiac commitment.",m:["MOD_02"],k:["desidia"],hl:[["desidiosus","Echo of Ov. Am. 1.9.46: whoever does not want to be desidiosus, let him love. Here, the reproach to a silent friend."]]},
+{id:"OCC_06",c:"VF_02",t:["TOP_04"],ref:"Carm. 6.9, vv. 15-16",v:["cum mea discedens rapuisti lumina tecum, / et modo nil sine te cerno patente die"],lex:["rapuisti lumina","nil cerno patente die"],f:"Separation is experienced as the theft of the eyes and of vital light.",m:[],k:["lumina"],hl:[["rapuisti lumina","Departure as the theft of sight and vital light."]]},
+{id:"OCC_07",c:"VF_03",t:["TOP_01","TOP_02"],ref:"Carm. 3.26, vv. 3-6",v:["Nos maris Oceani tumidum circumfluit aequor… / diuisos terris alligat unus amor"],lex:["tumidum aequor","alligat unus amor","cingit"],f:"The ocean separates bodies, but the bond of love and friendship chains them together.",m:["MOD_05"],k:["absentia"],hl:[["tumidum","The swollen sea, the obstacle of Hero and Leander (Her. 18-19)."],["alligat unus amor","The bond that unites those who are divided."]]},
+{id:"OCC_08",c:"VF_03",t:["TOP_02"],ref:"Carm. 3.26, vv. 13-14",v:["Blanda serenato tempestas pectore feruet / atque ad te uaria mobilitate trahit"],lex:["blanda tempestas","serenato pectore"],f:"The sea storm, a topos of danger, becomes a benevolent movement within the heart that draws the poet towards his friend.",m:["MOD_05"],k:["blanda tempestas"],hl:[["Blanda serenato tempestas","Blanda tempestas: the storm, once a danger, becomes a benevolent stirring of the heart that draws the poet to his friend."]]},
+{id:"OCC_09",c:"VF_04",t:["TOP_09"],ref:"Carm. 3.30, vv. 1-2",v:["Frater amore dei… / pectore fixe meo frater amore dei"],lex:["pectore fixe meo","frater amore dei"],f:"Echoic distich (calque of Am. 1.9). The wound of Love’s arrows becomes an indissoluble seal of brotherhood in God.",m:["MOD_02"],k:["brotherhood in God"],hl:[["pectore fixe meo","The piercing arrow becomes a seal: the friend is engraved in the heart."]]},
+{id:"OCC_10",c:"VF_04",t:["TOP_08"],ref:"Carm. 3.30, vv. 7-8",v:["Subdere colla decet, quia sunt iuga dulcia Christi"],lex:["subdere colla","iuga dulcia Christi"],f:"The elegiac love-yoke (iniustum iugum) becomes willing adherence to the sweet yoke of the Gospel.",m:["MOD_08"],k:["iuga dulcia"],hl:[["Subdere colla","Bending the neck: submission is now willing and joyful."],["iuga dulcia Christi","From the painful iugum of elegy to the dulce iugum of the Gospel; precedent in Paulinus of Nola."]]},
+{id:"OCC_11",c:"VF_04",t:["TOP_07"],ref:"Carm. 3.30, vv. 15-18",v:["Miles ad arma uenit quaerens per uulnera palmam… / Proelia sume libens…"],lex:["miles","per uulnera palmam","triumphus"],f:"Resemantisation of militia amoris: suffering and wounds in order to win the victory of eternal life.",m:["MOD_02"],k:["militia amoris"],hl:[["Miles","The miles of Love becomes miles Christi."],["per uulnera palmam","The wounds of Love become the path to the palm of salvation."]]},
+{id:"OCC_12",c:"VF_05",t:["TOP_11"],ref:"Carm. 8.9, vv. 7-8",v:["Omnibus exclusis uno retineberis antro: / nos magis includis, quos facis esse foris"],lex:["exclusis","uno antro","includis / foris"],f:"Reversal of the paraklausithyron: the whole community is left outside the saint’s seclusion.",m:[],k:["paraklausithyron"],hl:[["nos magis includis, quos facis esse foris","Paradox: by shutting herself in, the saint ‘includes’ the community by leaving it outside."]]},
+{id:"OCC_13",c:"VF_05",t:["TOP_12"],ref:"Carm. 8.9, vv. 9-12",v:["longior hic mensis quam celer annus erit. / Tempora subducis, ceu non uidearis amanti"],lex:["longior mensis","tempora subducis","amanti"],f:"Subjective time stretches without the sight of the domina (Radegund).",m:[],k:[],hl:[["longior hic mensis","Time stretches: one month weighs more than a year."]]},
+{id:"OCC_14",c:"VF_06",t:["TOP_04","TOP_12"],ref:"Carm. 8.10, vv. 1-4, 9-10",v:["Vnde mihi rediit radianti lumine uultus?… / iam meus autumnus uenit et uua simul"],lex:["radianti lumine uultus","meus autumnus"],f:"The saint’s return at Easter makes nature bloom early and brings spiritual fullness.",m:[],k:["lumina"],hl:[["radianti lumine uultus","Her return restores light and joy."],["iam meus autumnus uenit","The harvest comes early: spiritual fullness at Easter."]]},
+{id:"OCC_15",c:"VF_07",t:["TOP_13"],ref:"App. 1, vv. 61-66, 105-110",v:["me maris Oceani, te tenet unda rubri… / Sacra monasterii si me non claustra tenerent…"],lex:["puella relicta","undifragas procellas","non pauitasset amans"],f:"Radegund speaks as an elegiac heroine (model: Briseis/Hero), ready to cross the seas to her cousin were it not for the monastic rule that holds her back.",m:["MOD_05","MOD_06"],k:[],hl:[["si me non claustra tenerent","Readiness to follow the beloved: only the monastic rule holds her back."]]},
+{id:"OCC_16",c:"VF_07",t:["TOP_13"],ref:"App. 1, vv. 135-140",v:["Non solum amisi, sed nec pia lumina clausi / nec superincumbens ultima uerba dedi…"],lex:["lumina clausi","ultima uerba","oscula"],f:"Structural calque of Tristia 3.3: lament for the lack of funeral rites over her murdered brother’s body.",m:["MOD_07"],k:[],hl:[["pia lumina clausi","The eyes left unclosed: funeral rite denied (Ov. Tr. 3.3)."]]}],
+mod:[
+{id:"MOD_01",a:"Virgil",op:"Aeneid 4.80-85",q:"absens absentem auditque uidetque",r:"Expressive calque: taken over literally in Carm. 3.16.2 and 6.9.2 to describe the memory of the absent friend.",x:"Calque"},
+{id:"MOD_02",a:"Ovid",op:"Amores 1.9.1, 46",q:"Militat omnis amans… / qui nolet fieri desidiosus, amet",r:"Metrical and thematic borrowing: model for the echoic distichs in Carm. 3.30 and for desidia in Carm. 6.9.",x:"Borrowing"},
+{id:"MOD_03",a:"Ovid",op:"Remedia Amoris 89-90, 243-244",q:"lentus abesto… (advice of distance as a cure for love)",r:"Reversal: in Fortunatus distance does not extinguish love but sublimates it into friendship and prayer.",x:"Reversal"},
+{id:"MOD_04",a:"Catullus",op:"Carmina 30, 50, 66",q:"dulcis amiculi (c. 30.2)",r:"Anticipation of vocabulary: Catullus used the affective language of love for male friendship (sodalitas).",x:"Anticipation"},
+{id:"MOD_05",a:"Ovid",op:"Heroides 18 and 19",q:"Hero and Leander separated by the Hellespont",r:"Narrative model: used both for the motif of waters dividing friends (Carm. 3.26) and in App. 1.",x:"Narrative model"},
+{id:"MOD_06",a:"Ovid",op:"Heroides 3, vv. 51-52",q:"Tot tamen amissis te compensavimus unum / tu dominus, tu uir, tu mihi frater eras",r:"Adapted calque: taken over in App. 1.51-52 (“tu mihi solus eras”), dropping the terms ‘husband’ and ‘master’.",x:"Adapted calque"},
+{id:"MOD_07",a:"Ovid",op:"Tristia 3.3, vv. 37-46",q:"nec me qui fleat, ullus erit…",r:"Model of exile: direct source for Radegund’s lament over the impossibility of performing funeral rites (App. 1).",x:"Direct source"},
+{id:"MOD_08",a:"Paulinus of Nola",op:"Carmina 12 and 21",q:"dulce iugum, leue onus… (Carm. 12.32)",r:"Patristic precedent: fusion of erotic-elegiac language with devotion to Christ.",x:"Patristic precedent"},
+{id:"MOD_09",a:"Lucretius",op:"De Rerum Natura 4.453-454",q:"cum suaui deuinxit membra sopore / somnus…",r:"Refunctionalisation: from an epistemological analysis of dream illusions to the affective consolation of friendship.",x:"Refunctionalisation"}]
+};
+DB.extraTM=[["TOP_03","MOD_09"],["TOP_01","MOD_03"],["TOP_05","MOD_04"]];
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const T=id=>DB.topoi.find(x=>x.id===id), C=id=>DB.carmi.find(x=>x.id===id), M=id=>DB.mod.find(x=>x.id===id), O=id=>DB.occ.find(x=>x.id===id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const authors=[...new Set(DB.mod.map(m=>m.a))];
+const norm=s=>s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/v/g,"u");
+const badgeT=t=>`<a class="badge" href="#/topos/${t}">${esc(T(t).short)}</a>`;
+const badgeM=m=>`<a class="badge navy" href="#/fonti/${m}">${esc(M(m).a)}, ${esc(M(m).op)}</a>`;
+const HINT_ON="✓ Passage selected", HINT_OFF="Click to see the analysis →";
+
+function hlVerse(o){
+  let html=esc(o.v.join(" / ")).replace(/ \/ /g,"<br>");
+  o.hl.forEach(([s,g])=>{const e=esc(s);html=html.replace(e,`<span class="tip" tabindex="0" data-tip="${esc(g)}" data-t="${esc(s)}">${e}</span>`)});
+  return html;
+}
+function topoModels(tid){
+  const s=new Set();DB.occ.filter(o=>o.t.includes(tid)).forEach(o=>o.m.forEach(m=>s.add(m)));
+  DB.extraTM.filter(x=>x[0]===tid).forEach(x=>s.add(x[1]));return [...s];
+}
+
+function home(){
+  return `<section class="hero"><div class="eyebrow">Digital Humanities · Late antique Latin poetry</div>
+  <h1>The Christian Resemantisation of Elegiac Topoi in Venantius Fortunatus</h1>
+  <p>How Venantius Fortunatus reuses the motifs of Latin love elegy (Ovid, Catullus, Virgil) to speak of friendship and Christian faith.</p>
+  <form class="search" role="search" onsubmit="event.preventDefault();location.hash='#/cerca/'+encodeURIComponent(this.q.value)">
+  <label class="sr" for="q">Search</label><input id="q" name="q" type="search" placeholder="Search: iugum, Ovid, Radegund, 3.16…"><button>Search</button></form></section>
+  <section class="guide" aria-labelledby="g"><h2 id="g">How to use this site</h2>
+  <ol class="steps"><li><b>Pick a topos</b>An elegiac motif, for example distance. <a href="#/topoi">Go to topoi</a></li>
+  <li><b>Open a poem</b>See the verses where the motif appears. <a href="#/carmi">Go to poems</a></li>
+  <li><b>Click a passage</b>On the right, read the lexicon, analysis and linked topoi.</li>
+  <li><b>Compare the model</b>The passage of Ovid, Virgil… that Fortunatus reworks. <a href="#/fonti">Go to models</a></li></ol></section>
+  <div class="counters" aria-label="Database statistics">
+  <div class="counter"><b data-n="${DB.topoi.length}">0</b><span>Topoi identified</span></div>
+  <div class="counter"><b data-n="${DB.carmi.length}">0</b><span>Poems analysed</span></div>
+  <div class="counter"><b data-n="${DB.occ.length}">0</b><span>Philological occurrences</span></div>
+  <div class="counter"><b data-n="${DB.mod.length}">0</b><span>Classical models</span></div></div>
+  <h2>Connection map</h2>
+  <p class="lead">Each circle is a classical author or a topos; each square is a poem. A line means “these are linked”. Click a node to open its page. The graph is only a shortcut: you can ignore it and use the menu above.</p>
+  <div class="graphwrap"><svg id="graph" viewBox="0 0 1000 640" role="group" aria-label="Network graph: authors, topoi and poems"></svg>
+  <div class="legend"><span><i style="background:#9A6B2F"></i>Classical authors</span><span><i style="background:#1E293B"></i>Topoi</span><span><i style="background:#5B7B6F;border-radius:2px"></i>Poems by Fortunatus</span></div></div>`;
+}
+function topoi(){
+  return `<div class="eyebrow">Index</div><h1>Elegiac topoi</h1>
+  <p class="lead">A topos is a recurring motif of Latin love poetry. Click a card to see the classical definition, how Fortunatus transforms it, and the verses where it appears.</p>
+  <div class="filters"><label>Filter topoi<input type="search" id="tf" placeholder="E.g. time, yoke, eyes…"></label></div>
+  <div class="grid" id="tg">${DB.topoi.map(cardT).join("")}</div>`;
+}
+function cardT(t){const n=DB.occ.filter(o=>o.t.includes(t.id)).length;
+  return `<a class="card" href="#/topos/${t.id}" data-s="${esc(norm(t.nome+t.cl+t.vf))}"><span class="id">${t.id} · ${n} occurrence${n==1?"":"s"}</span><h3>${esc(t.nome)}</h3><p>${esc(t.vf.slice(0,120))}…</p></a>`}
+function topos(id){
+  const t=T(id);if(!t)return notfound();
+  const occ=DB.occ.filter(o=>o.t.includes(id)),mods=topoModels(id);
+  const i=DB.topoi.indexOf(t),p=DB.topoi[i-1],n=DB.topoi[i+1];
+  return `<div class="crumb"><a href="#/topoi">Topoi</a> › ${t.id}</div><h1>${esc(t.nome)}</h1>
+  <div class="two"><div class="panel"><span class="lbl">In classical elegy</span>${esc(t.cl)}</div>
+  <div class="panel" style="border-top:3px solid var(--gold)"><span class="lbl">In Venantius Fortunatus</span>${esc(t.vf)}</div></div>
+  <h2>Where it appears (${occ.length})</h2>
+  <p class="lead">Click the poem title to read the passage in the side-by-side reader.</p>
+  <div class="chips" role="group" aria-label="Filter by poem"><button class="chip" aria-pressed="true" data-c="">All</button>${[...new Set(occ.map(o=>o.c))].map(c=>`<button class="chip" aria-pressed="false" data-c="${c}">${C(c).ref}</button>`).join("")}</div>
+  <div id="occlist">${occ.map(occCard).join("")}</div>
+  <h2>Related classical models</h2>${mods.length?mods.map(badgeM).join(""):"<p class='note'>No model explicitly linked.</p>"}
+  <p style="margin-top:30px;display:flex;justify-content:space-between">${p?`<a href="#/topos/${p.id}">← ${p.id}</a>`:"<span></span>"}${n?`<a href="#/topos/${n.id}">${n.id} →</a>`:""}</p>`;
+}
+function occCard(o){return `<div class="occ" data-c="${o.c}"><span class="lbl">${o.id} · ${esc(o.ref)} · <a href="#/carmi/${o.id}">${esc(C(o.c).titolo)} — open in reader</a></span>
+  <div class="latin">${hlVerse(o)}</div><p style="margin:.5em 0">${esc(o.f)}</p>
+  <div>${o.t.map(badgeT).join("")}${o.m.map(badgeM).join("")}</div></div>`}
+function carmi(sel){
+  let o=O(sel)||DB.occ[0];const c=C(o.c);
+  return `<div class="eyebrow">Side-by-side reader</div><h1>Poems &amp; texts</h1>
+  <section class="guide"><ol class="steps"><li><b>Choose a poem</b>Use the buttons below.</li><li><b>Click a passage</b>In the left column.</li><li><b>Read the analysis</b>In the right column: lexicon, topoi and classical model.</li></ol></section>
+  <div class="tabs" role="tablist" aria-label="Poems">${DB.carmi.map(x=>`<button class="tab" role="tab" aria-selected="${x.id===c.id}" data-carme="${x.id}">${x.ref}</button>`).join("")}</div>
+  <div class="reader"><section aria-label="Poem text">
+  <h2 style="margin-top:0">${esc(c.titolo)}</h2><p class="note" style="margin:0 0 6px">${esc(c.ref)} · ${esc(c.tipo)}<br>Addressee: ${esc(c.dest)} — ${esc(c.qual)}</p>
+  ${DB.occ.filter(x=>x.c===c.id).map(x=>`<button class="verse" aria-pressed="${x.id===o.id}" data-occ="${x.id}"><span class="ref">${esc(x.ref)} · ${x.id}</span><span class="ln">${hlVerse(x)}</span><span class="hint">${x.id===o.id?HINT_ON:HINT_OFF}</span></button>`).join("")}
+  <p class="note">These are the passages analysed in the database, not the complete poem. Dotted-underlined terms have a quick note: hover over them or reach them with Tab.</p></section>
+  <aside class="side" aria-live="polite" aria-label="Analysis of the selected passage">${side(o)}</aside></div>`;
+}
+function side(o){
+  const c=C(o.c),m0=o.m[0];
+  return `<nav class="path" aria-label="Passage path">${o.t.map(t=>`<a href="#/topos/${t}">${esc(T(t).short)}</a>`).join("")}<i>→</i><span>${esc(c.ref)}</span><i>→</i><span>${esc(o.ref)}</span><i>→</i>${m0?`<a href="#/fonti/${m0}">${esc(M(m0).a)}</a>`:"<span>no model</span>"}</nav>
+  <div class="panel"><span class="lbl">Philological analysis · ${o.id}</span><h3>${esc(o.ref)}</h3>
+  <p><b>Key lexicon:</b> ${o.lex.map(l=>`<span class="badge navy">${esc(l)}</span>`).join("")}</p>
+  <p><b>Function and resemantisation:</b> ${esc(o.f)}</p><p><b>Topoi:</b> ${o.t.map(badgeT).join("")}</p></div>
+  <h3>Classical model in parallel</h3>
+  ${o.m.length?o.m.map(id=>{const m=M(id);return `<div class="parallel"><span class="lbl">${esc(m.a)} · ${esc(m.op)} · ${esc(m.x)}</span><div class="latin">${esc(m.q)}</div><p style="margin:.4em 0 0;font-size:.95rem">${esc(m.r)}</p></div>`}).join(""):`<p class="note">The database records no specific model for this passage.</p>`}`;
+}
+function fonti(sel){
+  const a=(sel&&M(sel))?M(sel).a:"";
+  return `<div class="eyebrow">Intertextual matrix</div><h1>Sources &amp; classical models</h1>
+  <p class="lead">Choose an author to see which of his passages Fortunatus takes up and how he transforms them. The label under each name (Calque, Reversal…) shows the type of relationship. OCC badges lead to the corresponding verse.</p>
+  <div class="chips" role="group" aria-label="Filter by author"><button class="chip" aria-pressed="${!a}" data-a="">All</button>${authors.map(x=>`<button class="chip" aria-pressed="${x===a}" data-a="${esc(x)}">${esc(x)}</button>`).join("")}</div>
+  <div class="tablewrap"><table><thead><tr><th>Author</th><th>Passage</th><th>Comparison text</th><th>Relation to Fortunatus</th><th>Occurrences</th></tr></thead><tbody id="mb">
+  ${DB.mod.map(m=>{const oc=DB.occ.filter(o=>o.m.includes(m.id));return `<tr data-a="${esc(m.a)}" ${m.id===sel?'style="background:#FFFDF0"':''}><td><b>${esc(m.a)}</b><br><span class="badge">${esc(m.x)}</span></td><td>${esc(m.op)}</td><td class="latin" style="font-size:1rem">${esc(m.q)}</td><td>${esc(m.r)}</td><td>${oc.length?oc.map(o=>`<a class="badge" href="#/carmi/${o.id}">${o.id}</a>`).join(""):"—"}</td></tr>`}).join("")}</tbody></table></div>`;
+}
+function concepts(){return [...new Set(DB.occ.flatMap(o=>o.k))].sort()}
+function cerca(q){
+  q=decodeURIComponent(q||"");
+  return `<div class="eyebrow">Search</div><h1>Advanced search</h1>
+  <p class="lead">Type a word (accents optional: iugum, Ovid, 8.9) or use only the menus to filter by addressee or concept. Results update as you type.</p>
+  <div class="filters"><label>Word, topos, author, poem<input type="search" id="sq" value="${esc(q)}" placeholder="e.g. iugum, Ovid, 8.9"></label>
+  <label>Addressee<select id="sd"><option value="">All</option>${[...new Set(DB.carmi.map(c=>c.dest))].map(d=>`<option>${esc(d)}</option>`).join("")}</select></label>
+  <label>Concept<select id="sk"><option value="">All</option>${concepts().map(k=>`<option>${esc(k)}</option>`).join("")}</select></label>
+  <button class="btn alt" id="sr">Reset</button></div>
+  <p id="sc" class="note" aria-live="polite"></p><div id="res"></div>`;
+}
+function runSearch(){
+  const q=norm($("#sq").value.trim()),d=$("#sd").value,k=$("#sk").value;
+  const hit=o=>{const c=C(o.c);
+    if(d&&c.dest!==d)return false;if(k&&!o.k.includes(k))return false;
+    if(!q)return true;
+    const hay=norm([o.id,o.ref,o.v.join(" "),o.lex.join(" "),o.f,c.titolo,c.dest,c.ref,o.t.map(t=>T(t).nome+T(t).vf).join(" "),o.m.map(m=>M(m).a+" "+M(m).op+" "+M(m).q).join(" ")].join(" "));
+    return q.split(/\s+/).every(w=>hay.includes(w));};
+  const r=DB.occ.filter(hit);
+  let extra="";
+  if(q&&!d&&!k){
+    const tt=DB.topoi.filter(t=>norm(t.nome+t.cl+t.vf).includes(q)), mm=DB.mod.filter(m=>norm(m.a+m.op+m.q+m.r).includes(q));
+    extra=(tt.length?`<h2>Topoi (${tt.length})</h2>${tt.map(t=>badgeT(t.id)).join("")}`:"")+(mm.length?`<h2>Models (${mm.length})</h2>${mm.map(m=>badgeM(m.id)).join("")}`:"");
+  }
+  $("#sc").textContent=`${r.length} occurrence${r.length==1?"":"s"} found`;
+  $("#res").innerHTML=r.map(occCard).join("")+extra;
+}
+function exportView(){
+  return `<div class="eyebrow">Open data</div><h1>Data export</h1>
+  <p class="lead">1. Choose a dataset. 2. Click a format: the file downloads immediately, generated in your browser.</p>
+  <div class="filters"><label>Dataset<select id="xd"><option value="occ">Occurrences</option><option value="topoi">Topoi</option><option value="carmi">Poems</option><option value="mod">Classical models</option><option value="all">Whole database (JSON only)</option></select></label>
+  <button class="btn" data-x="json">Download JSON</button><button class="btn" data-x="csv">Download CSV</button><button class="btn" data-x="bib">Download BibTeX</button></div>
+  <p class="note">BibTeX: schematic entries for the poems and model works; edition, editor and year must be completed by the scholar.</p>`;
+}
+function notfound(){return `<h1>Page not found</h1><p><a href="#/">Back to home</a></p>`}
+
+function dl(name,txt,type){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([txt],{type}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500)}
+const csvCell=v=>`"${String(v??"").replace(/"/g,'""')}"`;
+function toCSV(rows){const h=Object.keys(rows[0]);return "\ufeff"+[h.join(","),...rows.map(r=>h.map(k=>csvCell(Array.isArray(r[k])?r[k].join("; "):r[k])).join(","))].join("\r\n")}
+function flat(ds){
+  if(ds==="occ")return DB.occ.map(o=>({Occurrence_ID:o.id,Poem_ID:o.c,Reference:o.ref,Topos_ID:o.t,Latin_text:o.v.join(" "),Lexicon:o.lex,Function:o.f,Model_ID:o.m,Concepts:o.k}));
+  if(ds==="topoi")return DB.topoi.map(t=>({Topos_ID:t.id,Name:t.nome,Classical_definition:t.cl,Resemantisation_VF:t.vf}));
+  if(ds==="carmi")return DB.carmi.map(c=>({Poem_ID:c.id,Reference:c.ref,Title:c.titolo,Addressee:c.dest,Description:c.qual,Type:c.tipo}));
+  return DB.mod.map(m=>({Model_ID:m.id,Author:m.a,Work_passage:m.op,Text:m.q,Relation:m.r,Relation_type:m.x}));
+}
+function bibtex(){
+  const key=s=>s.replace(/[^A-Za-z0-9]+/g,"_").replace(/^_|_$/g,"");
+  let b=DB.carmi.map(c=>`@misc{Fortunatus_${key(c.ref)},\n  author = {Venantius Fortunatus},\n  title = {${c.titolo}},\n  howpublished = {${c.ref}},\n  note = {${c.tipo}. Addressee: ${c.dest}}\n}`);
+  b=b.concat(DB.mod.map(m=>`@misc{${key(m.a)}_${key(m.op)},\n  author = {${m.a}},\n  title = {${m.op}},\n  note = {Model for Venantius Fortunatus (${m.x})}\n}`));
+  return b.join("\n\n");
+}
+function doExport(fmt){
+  const ds=$("#xd").value;
+  if(fmt==="json")return dl(`fortunatus_${ds}.json`,JSON.stringify(ds==="all"?DB:flat(ds),null,2),"application/json");
+  if(fmt==="csv"){if(ds==="all")return alert("For CSV, please choose a single dataset.");return dl(`fortunatus_${ds}.csv`,toCSV(flat(ds)),"text/csv")}
+  dl("fortunatus.bib",bibtex(),"application/x-bibtex");
+}
+
+function graph(){
+  const svg=$("#graph");if(!svg)return;const W=1000,H=640,ns="http://www.w3.org/2000/svg";
+  const nodes=[],links=[],idx={};
+  const add=(id,label,type,href)=>{idx[id]=nodes.length;nodes.push({id,label,type,href,x:W/2+(Math.random()-.5)*300,y:H/2+(Math.random()-.5)*300,vx:0,vy:0})};
+  authors.forEach(a=>add("A:"+a,a,"a","#/fonti/"+DB.mod.find(m=>m.a===a).id));
+  DB.topoi.forEach(t=>add(t.id,t.short,"t","#/topos/"+t.id));
+  DB.carmi.forEach(c=>add(c.id,c.ref,"c","#/carmi/"+DB.occ.find(o=>o.c===c.id).id));
+  const seen=new Set(),L=(a,b)=>{const k=a+b;if(!seen.has(k)){seen.add(k);links.push({s:idx[a],t:idx[b]})}};
+  DB.occ.forEach(o=>o.t.forEach(t=>{L(o.c,t);o.m.forEach(m=>L("A:"+M(m).a,t))}));
+  DB.extraTM.forEach(([t,m])=>L("A:"+M(m).a,t));
+  const lg=document.createElementNS(ns,"g");svg.appendChild(lg);
+  const le=links.map(()=>{const e=document.createElementNS(ns,"line");e.setAttribute("class","glink");lg.appendChild(e);return e});
+  const col={a:"#9A6B2F",t:"#1E293B",c:"#5B7B6F"};
+  let alpha=1;const ge=[];
+  nodes.forEach(n=>{
+    const g=document.createElementNS(ns,"g");g.setAttribute("class","gnode");g.setAttribute("tabindex","0");g.setAttribute("role","link");g.setAttribute("aria-label",n.label);
+    const sh=n.type==="c"?document.createElementNS(ns,"rect"):document.createElementNS(ns,"circle");
+    if(n.type==="c"){sh.setAttribute("width",22);sh.setAttribute("height",22);sh.setAttribute("x",-11);sh.setAttribute("y",-11);sh.setAttribute("rx",3)}else sh.setAttribute("r",n.type==="a"?15:9);
+    sh.setAttribute("fill",col[n.type]);sh.setAttribute("stroke","#fff");sh.setAttribute("stroke-width",2);
+    const tx=document.createElementNS(ns,"text");tx.textContent=n.label;tx.setAttribute("y",n.type==="a"?-21:-15);tx.setAttribute("text-anchor","middle");if(n.type==="a")tx.style.fontWeight="700";
+    g.append(sh,tx);svg.appendChild(g);ge.push(g);
+    const hi=on=>{const nb=new Set([n.id]);links.forEach((l,i)=>{const h=on&&(nodes[l.s]===n||nodes[l.t]===n);if(h){nb.add(nodes[l.s].id);nb.add(nodes[l.t].id)}le[i].classList.toggle("hi",h);le[i].classList.toggle("dim",on&&!h)});ge.forEach((e,i)=>e.classList.toggle("dim",on&&!nb.has(nodes[i].id)))};
+    g.addEventListener("mouseenter",()=>hi(true));g.addEventListener("mouseleave",()=>hi(false));g.addEventListener("focus",()=>hi(true));g.addEventListener("blur",()=>hi(false));
+    g.addEventListener("keydown",e=>{if(e.key==="Enter")location.hash=n.href});
+    let drag=false,moved=false;
+    g.addEventListener("pointerdown",e=>{drag=true;moved=false;g.setPointerCapture(e.pointerId)});
+    g.addEventListener("pointermove",e=>{if(!drag)return;moved=true;const r=svg.getBoundingClientRect();n.x=(e.clientX-r.left)*W/r.width;n.y=(e.clientY-r.top)*H/r.height;n.vx=n.vy=0;alpha=.4});
+    g.addEventListener("pointerup",()=>{drag=false;if(!moved)location.hash=n.href});
+  });
+  function tick(){
+    for(let i=0;i<nodes.length;i++)for(let j=i+1;j<nodes.length;j++){const a=nodes[i],b=nodes[j];let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy+.01,d=Math.sqrt(d2),f=2600/d2*alpha;dx/=d;dy/=d;a.vx+=dx*f;a.vy+=dy*f;b.vx-=dx*f;b.vy-=dy*f}
+    links.forEach(l=>{const a=nodes[l.s],b=nodes[l.t];let dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)||1,f=(d-110)*.02*alpha;dx/=d;dy/=d;a.vx+=dx*f;a.vy+=dy*f;b.vx-=dx*f;b.vy-=dy*f});
+    nodes.forEach(n=>{const k=n.type==="a"?.012:n.type==="t"?.004:.018;n.vx+=(W/2-n.x)*k*alpha;n.vy+=(H/2-n.y)*k*alpha;n.vx*=.8;n.vy*=.8;n.x=Math.max(50,Math.min(W-50,n.x+n.vx));n.y=Math.max(40,Math.min(H-30,n.y+n.vy))});
+    nodes.forEach((n,i)=>ge[i].setAttribute("transform",`translate(${n.x},${n.y})`));
+    links.forEach((l,i)=>{le[i].setAttribute("x1",nodes[l.s].x);le[i].setAttribute("y1",nodes[l.s].y);le[i].setAttribute("x2",nodes[l.t].x);le[i].setAttribute("y2",nodes[l.t].y)});
+    alpha*=.985;
+  }
+  if(matchMedia("(prefers-reduced-motion:reduce)").matches){for(let i=0;i<350;i++)tick();alpha=0;tick()}
+  (function loop(){if(!document.body.contains(svg))return;if(alpha>.01)tick();requestAnimationFrame(loop)})();
+}
+
+const app=$("#app");
+function route(){
+  const parts=location.hash.replace(/^#\/?/,"").split("/"),R=parts[0]||"home",arg=decodeURIComponent(parts[1]||""),raw=parts.slice(1).join("/");
+  let out;
+  if(R==="home")out=home();else if(R==="topoi")out=topoi();else if(R==="topos")out=topos(arg);
+  else if(R==="carmi")out=carmi(arg);else if(R==="fonti")out=fonti(arg);else if(R==="cerca")out=cerca(raw);else if(R==="export")out=exportView();else out=notfound();
+  app.innerHTML=out;
+  $$("nav.main a").forEach(a=>a.removeAttribute("aria-current"));
+  const key=R==="topos"?"topoi":R;const cur=$(`nav.main a[data-r="${key}"]`);if(cur)cur.setAttribute("aria-current","page");
+  scrollTo(0,0);app.focus({preventScroll:true});
+  if(R==="home"){graph();$$(".counter b").forEach(b=>{const n=+b.dataset.n;let i=0;const s=setInterval(()=>{b.textContent=++i;if(i>=n)clearInterval(s)},60)})}
+  if(R==="cerca")runSearch();
+}
+addEventListener("hashchange",route);
+document.addEventListener("click",e=>{
+  const t=e.target.closest("[data-carme]");if(t){const c=t.dataset.carme;location.hash="#/carmi/"+DB.occ.find(o=>o.c===c).id;return}
+  const v=e.target.closest(".verse");if(v){const o=O(v.dataset.occ);$$(".verse").forEach(x=>{x.setAttribute("aria-pressed",x===v);x.querySelector(".hint").textContent=x===v?HINT_ON:HINT_OFF});$(".side").innerHTML=side(o);return}
+  const ch=e.target.closest(".chip[data-a]");if(ch){$$(".chip[data-a]").forEach(x=>x.setAttribute("aria-pressed",x===ch));$$("#mb tr").forEach(r=>r.hidden=ch.dataset.a&&r.dataset.a!==ch.dataset.a);return}
+  const cc=e.target.closest(".chip[data-c]");if(cc){$$(".chip[data-c]").forEach(x=>x.setAttribute("aria-pressed",x===cc));$$("#occlist .occ").forEach(r=>r.hidden=cc.dataset.c&&r.dataset.c!==cc.dataset.c);return}
+  const x=e.target.closest("[data-x]");if(x)return doExport(x.dataset.x);
+  if(e.target.id==="sr"){$("#sq").value="";$("#sd").value="";$("#sk").value="";runSearch()}
+});
+document.addEventListener("input",e=>{
+  if(e.target.id==="tf"){const q=norm(e.target.value);$$("#tg .card").forEach(c=>c.hidden=!c.dataset.s.includes(q))}
+  if(e.target.id==="sq")runSearch();
+});
+document.addEventListener("change",e=>{if(e.target.id==="sd"||e.target.id==="sk")runSearch()});
+
+const tip=$("#tooltip");
+function showTip(el){tip.innerHTML=`<b>${el.dataset.t}</b>${el.dataset.tip}`;tip.style.display="block";const r=el.getBoundingClientRect();let y=r.bottom+8;if(y+tip.offsetHeight>innerHeight)y=r.top-tip.offsetHeight-8;tip.style.left=Math.max(8,Math.min(r.left,innerWidth-340))+"px";tip.style.top=y+"px"}
+document.addEventListener("mouseover",e=>{const t=e.target.closest(".tip");if(t)showTip(t)});
+document.addEventListener("mouseout",e=>{if(e.target.closest(".tip"))tip.style.display="none"});
+document.addEventListener("focusin",e=>{const t=e.target.closest(".tip");if(t)showTip(t)});
+document.addEventListener("focusout",()=>tip.style.display="none");
+document.addEventListener("keydown",e=>{if(e.key==="Escape")tip.style.display="none"});
+route();
+</script>
+</body></html>
